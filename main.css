@@ -4,8 +4,40 @@ div {
   display: inline-block; /* a way of positioning elements */
   min-width: 20em; /* the two min styles make the shape */
   min-height: 25em; /* of the divs oblong*/
-  border-radius: 50%; /* this makes the normally square div round */
+  border-radius: 100%; /* this makes the normally square div round */
   border-left-color: transparent; /* these remove the color from the left side */
   border-right-color: transparent; /* the right side */
   border-bottom-color: transparent; /* and the bottom of the circle */
+  color: red;
+}
+#red{
+  border-top-color: #f00;
+}
+#orange-ish{
+  border-top-color: #E2571E;
+}
+#orange{
+  border-top-color: #FF7F00;
+}
+#yellow{
+  border-top-color: #FFFF00;
+}
+#green{
+  border-top-color: #0F0;
+}
+#green-ish{
+  border-top-color: #96bf33
+}
+#blue{
+  border-top-color: #0000FF;
+}
+
+#indigo{
+  border-top-color: #4B0082;
+}
+#violet{
+  border-top-color: #8B00FF;
+}
+#white{
+  border-top-color: #FFF;
 }
